@@ -1,0 +1,394 @@
+VERSION 5.8 ;
+BUSBITCHARS "[]" ;
+DIVIDERCHAR "/" ;
+
+MACRO CF_XOSC
+  CLASS BLOCK ;
+  ORIGIN 0 0 ;
+  FOREIGN CF_XOSC 0 0 ;
+  SIZE 338.285 BY 344.98 ;
+  PIN test_sel[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 247.675 0 247.975 15.3 ;
+    END
+  END test_sel[0]
+  PIN vpwr_sw
+    DIRECTION OUTPUT ;
+    USE POWER ;
+    PORT
+      LAYER met3 ;
+        RECT 210.605 27.1 220.605 37.1 ;
+    END
+  END vpwr_sw
+  PIN pwr_en
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 318.195 0 318.495 15.3 ;
+    END
+  END pwr_en
+  PIN clk_en_hv
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 252.675 0 252.975 15.3 ;
+    END
+  END clk_en_hv
+  PIN itrim[3]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 238.675 0 238.975 15.3 ;
+    END
+  END itrim[3]
+  PIN vref_sel
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 229.675 0 229.975 15.3 ;
+    END
+  END vref_sel
+  PIN ftrim[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 251.675 0 251.975 15.3 ;
+    END
+  END ftrim[0]
+  PIN atrim[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 234.675 0 234.975 15.3 ;
+    END
+  END atrim[1]
+  PIN itrim[5]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 236.675 0 236.975 15.3 ;
+    END
+  END itrim[5]
+  PIN test
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 224.175 0 224.475 15.3 ;
+    END
+  END test
+  PIN rtrim[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 243.675 0 243.975 15.3 ;
+    END
+  END rtrim[0]
+  PIN vgnd
+    DIRECTION INPUT ;
+    USE GROUND ;
+    PORT
+      LAYER met3 ;
+        RECT 15 38.1 25 48.1 ;
+        RECT 2.26 38.1 25 48.1 ;
+        RECT 2.26 38.1 2.74 333.58 ;
+        RECT 1.23 330.48 337.055 333.58 ;
+      LAYER met4 ;
+        RECT 20 0 23.1 344.98 ;
+        RECT 50 0 53.1 344.98 ;
+        RECT 80 0 83.1 344.98 ;
+        RECT 110 0 113.1 344.98 ;
+        RECT 140 0 143.1 344.98 ;
+        RECT 170 0 173.1 344.98 ;
+        RECT 200 0 203.1 344.98 ;
+        RECT 230 0 233.1 344.98 ;
+        RECT 260 0 263.1 344.98 ;
+        RECT 290 0 293.1 344.98 ;
+        RECT 320 0 323.1 344.98 ;
+    END
+  END vgnd
+  PIN atrim[2]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 233.675 0 233.975 15.3 ;
+    END
+  END atrim[2]
+  PIN atrim[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 235.675 0 235.975 15.3 ;
+    END
+  END atrim[0]
+  PIN ftrim[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 250.675 0 250.975 15.3 ;
+    END
+  END ftrim[1]
+  PIN xip
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 318.295 96.955 338.285 101.945 ;
+    END
+  END xip
+  PIN vref
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 225.175 0 225.475 15.3 ;
+    END
+  END vref
+  PIN xop
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 318.295 147.435 338.285 152.425 ;
+    END
+  END xop
+  PIN vdd
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 317.285 49.1 323.285 55.1 ;
+    END
+  END vdd
+  PIN pwr_en_hv
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 319.175 0 319.475 15.3 ;
+    END
+  END pwr_en_hv
+  PIN wdtrim[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 231.675 0 231.975 15.3 ;
+    END
+  END wdtrim[1]
+  PIN itrim[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 241.675 0 241.975 15.3 ;
+    END
+  END itrim[0]
+  PIN test_sel[2]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 245.675 0 245.975 15.3 ;
+    END
+  END test_sel[2]
+  PIN test_sel[3]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 244.675 0 244.975 15.3 ;
+    END
+  END test_sel[3]
+  PIN itrim[4]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 237.675 0 237.975 15.3 ;
+    END
+  END itrim[4]
+  PIN agc_en
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 230.675 0 230.975 15.3 ;
+    END
+  END agc_en
+  PIN clk
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 228.675 0 228.975 15.3 ;
+    END
+  END clk
+  PIN test_sel[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 246.675 0 246.975 15.3 ;
+    END
+  END test_sel[1]
+  PIN wdtrim[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 232.675 0 232.975 15.3 ;
+    END
+  END wdtrim[0]
+  PIN gtrim[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 248.675 0 248.975 15.3 ;
+    END
+  END gtrim[1]
+  PIN gtrim[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 249.675 0 249.975 15.3 ;
+    END
+  END gtrim[0]
+  PIN vpump
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 320.285 56.1 323.285 59.1 ;
+    END
+  END vpump
+  PIN itrim[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 240.675 0 240.975 15.3 ;
+    END
+  END itrim[1]
+  PIN itrim[2]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 239.675 0 239.975 15.3 ;
+    END
+  END itrim[2]
+  PIN wd_err_n
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 227.675 0 227.975 15.3 ;
+    END
+  END wd_err_n
+  PIN vpwr
+    DIRECTION INPUT ;
+    USE POWER ;
+    PORT
+      LAYER met3 ;
+        RECT 15 16.1 25 26.1 ;
+        RECT 5 16.1 25 26.1 ;
+        RECT 5 20.86 8.1 21.34 ;
+        RECT 1.23 335.28 337.055 338.38 ;
+      LAYER met4 ;
+        RECT 5 0 8.1 344.98 ;
+        RECT 35 0 38.1 344.98 ;
+        RECT 65 0 68.1 344.98 ;
+        RECT 95 0 98.1 344.98 ;
+        RECT 125 0 128.1 344.98 ;
+        RECT 155 0 158.1 344.98 ;
+        RECT 185 0 188.1 344.98 ;
+        RECT 215 0 218.1 344.98 ;
+        RECT 245 0 248.1 344.98 ;
+        RECT 275 0 278.1 344.98 ;
+        RECT 305 0 308.1 344.98 ;
+        RECT 335 0 338.1 344.98 ;
+    END
+  END vpwr
+  PIN vssq
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 224.675 0 224.975 15.3 ;
+    END
+  END vssq
+  PIN rtrim[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 242.675 0 242.975 15.3 ;
+    END
+  END rtrim[1]
+  OBS
+    LAYER li1 ;
+      RECT 0 0 338.285 344.98 ;
+    LAYER met1 ;
+      RECT 0 0 15 344.98 ;
+      RECT 323.285 0 338.285 344.98 ;
+      RECT 15 0 224.175 15 ;
+      RECT 224.475 0 224.675 15 ;
+      RECT 224.975 0 225.175 15 ;
+      RECT 225.475 0 227.675 15 ;
+      RECT 227.975 0 228.675 15 ;
+      RECT 228.975 0 229.675 15 ;
+      RECT 229.975 0 230.675 15 ;
+      RECT 230.975 0 231.675 15 ;
+      RECT 231.975 0 232.675 15 ;
+      RECT 232.975 0 233.675 15 ;
+      RECT 233.975 0 236.675 15 ;
+      RECT 236.975 0 237.675 15 ;
+      RECT 237.975 0 238.675 15 ;
+      RECT 238.975 0 239.675 15 ;
+      RECT 239.975 0 240.675 15 ;
+      RECT 240.975 0 241.675 15 ;
+      RECT 241.975 0 242.675 15 ;
+      RECT 242.975 0 243.675 15 ;
+      RECT 243.975 0 244.675 15 ;
+      RECT 244.975 0 245.675 15 ;
+      RECT 245.975 0 246.675 15 ;
+      RECT 246.975 0 247.675 15 ;
+      RECT 247.975 0 252.675 15 ;
+      RECT 252.975 0 318.195 15 ;
+      RECT 318.495 0 319.175 15 ;
+      RECT 319.475 0 323.285 15 ;
+      RECT 15 329.98 323.285 344.98 ;
+    LAYER met2 ;
+      RECT 0 0 15 344.98 ;
+      RECT 323.285 0 338.285 96.955 ;
+      RECT 323.285 101.945 338.285 147.435 ;
+      RECT 323.285 152.425 338.285 344.98 ;
+      RECT 15 0 234.675 15 ;
+      RECT 234.975 0 235.675 15 ;
+      RECT 235.975 0 248.675 15 ;
+      RECT 248.975 0 249.675 15 ;
+      RECT 249.975 0 250.675 15 ;
+      RECT 250.975 0 251.675 15 ;
+      RECT 251.975 0 323.285 15 ;
+      RECT 15 329.98 323.285 344.98 ;
+  END
+END CF_XOSC
+
+END LIBRARY

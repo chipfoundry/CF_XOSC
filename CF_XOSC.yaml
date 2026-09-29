@@ -1,0 +1,24 @@
+info:
+  name: CF_XOSC
+  description: Crystal oscillator interface (CF_XOSC) is a ChipFoundry hard-macro blackbox
+    on SkyWater 130 nm.
+  repo: https://github.com/chipfoundry/CF_XOSC
+  owner: ChipFoundry
+  license: proprietary
+  author: ChipFoundry
+  email: support@chipfoundry.io
+  version: 0.2.0
+  date: 9-29-2026
+  category: analog
+  tags:
+  - CF_XOSC
+  bus: n/a
+  type: hard
+  maturity: Production
+  width: '338.285'
+  height: '344.98'
+  technology: sky130
+  digital_supply_voltage: n/a
+  analog_supply_voltage: n/a
+  clock_freq_mhz: n/a
+  cell_count: '2'

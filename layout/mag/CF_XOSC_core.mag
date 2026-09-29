@@ -1,0 +1,251 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 0
+<< metal1 >>
+rect 46535 0 46595 60
+rect 60639 0 60699 60
+rect 47535 0 47595 60
+rect 44735 0 44795 60
+rect 42935 0 42995 60
+rect 47335 0 47395 60
+rect 43935 0 43995 60
+rect 44335 0 44395 60
+rect 41835 0 41895 60
+rect 45735 0 45795 60
+rect 43735 0 43795 60
+rect 44135 0 44195 60
+rect 47135 0 47195 60
+rect 42035 0 42095 60
+rect 60835 0 60895 60
+rect 43335 0 43395 60
+rect 45335 0 45395 60
+rect 46135 0 46195 60
+rect 45935 0 45995 60
+rect 44535 0 44595 60
+rect 43135 0 43195 60
+rect 42735 0 42795 60
+rect 46335 0 46395 60
+rect 43535 0 43595 60
+rect 46735 0 46795 60
+rect 46935 0 46995 60
+rect 45135 0 45195 60
+rect 44935 0 44995 60
+rect 42535 0 42595 60
+rect 41935 0 41995 60
+rect 42135 0 42195 60
+rect 41735 0 41795 60
+rect 45535 0 45595 60
+<< metal2 >>
+rect 46535 0 46595 60
+rect 60639 0 60699 60
+rect 47535 0 47595 60
+rect 44735 0 44795 60
+rect 42935 0 42995 60
+rect 47335 0 47395 60
+rect 43935 0 43995 60
+rect 44335 0 44395 60
+rect 41835 0 41895 60
+rect 45735 0 45795 60
+rect 43735 0 43795 60
+rect 44135 0 44195 60
+rect 47135 0 47195 60
+rect 60659 16391 61657 17389
+rect 42035 0 42095 60
+rect 60659 26487 61657 27485
+rect 60835 0 60895 60
+rect 43335 0 43395 60
+rect 45335 0 45395 60
+rect 46135 0 46195 60
+rect 45935 0 45995 60
+rect 44535 0 44595 60
+rect 43135 0 43195 60
+rect 42735 0 42795 60
+rect 46335 0 46395 60
+rect 43535 0 43595 60
+rect 46735 0 46795 60
+rect 46935 0 46995 60
+rect 45135 0 45195 60
+rect 44935 0 44995 60
+rect 42535 0 42595 60
+rect 41735 0 41795 60
+rect 42135 0 42195 60
+rect 41935 0 41995 60
+rect 61597 27605 61657 27665
+rect 61597 26307 61657 26367
+rect 61597 16211 61657 16271
+rect 61597 17509 61657 17569
+rect 45535 0 45595 60
+<< metal3 >>
+rect 39121 2420 41121 4420
+rect 0 4620 2000 6620
+rect 59657 4620 61657 6620
+rect 60457 6820 61657 8020
+rect 61057 8220 61657 8820
+rect 0 220 2000 2220
+rect 59657 220 61657 2220
+rect 59613 9210 61657 62996
+<< labels >>
+rlabel metal1 s 46535 0 46595 60 4 test_sel[0]
+port 1 nsew
+rlabel metal2 s 46535 0 46595 60 4 test_sel[0]
+port 2 nsew
+rlabel metal3 s 39121 2420 41121 4420 4 vpwr
+port 3 nsew
+rlabel metal1 s 60639 0 60699 60 4 pwr_en
+port 4 nsew
+rlabel metal2 s 60639 0 60699 60 4 pwr_en
+port 5 nsew
+rlabel metal1 s 47535 0 47595 60 4 clk_en_hv
+port 6 nsew
+rlabel metal2 s 47535 0 47595 60 4 clk_en_hv
+port 7 nsew
+rlabel metal1 s 44735 0 44795 60 4 itrim[3]
+port 8 nsew
+rlabel metal2 s 44735 0 44795 60 4 itrim[3]
+port 9 nsew
+rlabel metal1 s 42935 0 42995 60 4 vref_sel
+port 10 nsew
+rlabel metal2 s 42935 0 42995 60 4 vref_sel
+port 11 nsew
+rlabel metal2 s 47335 0 47395 60 4 ftrim[0]
+port 12 nsew
+rlabel metal1 s 47335 0 47395 60 4 ftrim[0]
+port 13 nsew
+rlabel metal2 s 43935 0 43995 60 4 atrim[1]
+port 14 nsew
+rlabel metal1 s 43935 0 43995 60 4 atrim[1]
+port 15 nsew
+rlabel metal1 s 44335 0 44395 60 4 itrim[5]
+port 16 nsew
+rlabel metal2 s 44335 0 44395 60 4 itrim[5]
+port 17 nsew
+rlabel metal1 s 41835 0 41895 60 4 test
+port 18 nsew
+rlabel metal2 s 41835 0 41895 60 4 test
+port 19 nsew
+rlabel metal1 s 45735 0 45795 60 4 rtrim[0]
+port 20 nsew
+rlabel metal2 s 45735 0 45795 60 4 rtrim[0]
+port 21 nsew
+rlabel metal3 s 0 4620 2000 6620 4 vssd
+port 22 nsew
+rlabel metal3 s 59657 4620 61657 6620 4 vssd
+port 23 nsew
+rlabel metal1 s 43735 0 43795 60 4 atrim[2]
+port 24 nsew
+rlabel metal2 s 43735 0 43795 60 4 atrim[2]
+port 25 nsew
+rlabel metal2 s 44135 0 44195 60 4 atrim[0]
+port 26 nsew
+rlabel metal1 s 44135 0 44195 60 4 atrim[0]
+port 27 nsew
+rlabel metal2 s 47135 0 47195 60 4 ftrim[1]
+port 28 nsew
+rlabel metal1 s 47135 0 47195 60 4 ftrim[1]
+port 29 nsew
+rlabel metal2 s 60659 16391 61657 17389 4 xip
+port 30 nsew
+rlabel metal1 s 42035 0 42095 60 4 vref
+port 31 nsew
+rlabel metal2 s 42035 0 42095 60 4 vref
+port 32 nsew
+rlabel metal2 s 60659 26487 61657 27485 4 xop
+port 33 nsew
+rlabel metal3 s 60457 6820 61657 8020 4 vdd
+port 34 nsew
+rlabel metal1 s 60835 0 60895 60 4 pwr_en_hv
+port 35 nsew
+rlabel metal2 s 60835 0 60895 60 4 pwr_en_hv
+port 36 nsew
+rlabel metal1 s 43335 0 43395 60 4 wdtrim[1]
+port 37 nsew
+rlabel metal2 s 43335 0 43395 60 4 wdtrim[1]
+port 38 nsew
+rlabel metal1 s 45335 0 45395 60 4 itrim[0]
+port 39 nsew
+rlabel metal2 s 45335 0 45395 60 4 itrim[0]
+port 40 nsew
+rlabel metal1 s 46135 0 46195 60 4 test_sel[2]
+port 41 nsew
+rlabel metal2 s 46135 0 46195 60 4 test_sel[2]
+port 42 nsew
+rlabel metal1 s 45935 0 45995 60 4 test_sel[3]
+port 43 nsew
+rlabel metal2 s 45935 0 45995 60 4 test_sel[3]
+port 44 nsew
+rlabel metal1 s 44535 0 44595 60 4 itrim[4]
+port 45 nsew
+rlabel metal2 s 44535 0 44595 60 4 itrim[4]
+port 46 nsew
+rlabel metal1 s 43135 0 43195 60 4 agc_en
+port 47 nsew
+rlabel metal2 s 43135 0 43195 60 4 agc_en
+port 48 nsew
+rlabel metal1 s 42735 0 42795 60 4 clk
+port 49 nsew
+rlabel metal2 s 42735 0 42795 60 4 clk
+port 50 nsew
+rlabel metal1 s 46335 0 46395 60 4 test_sel[1]
+port 51 nsew
+rlabel metal2 s 46335 0 46395 60 4 test_sel[1]
+port 52 nsew
+rlabel metal1 s 43535 0 43595 60 4 wdtrim[0]
+port 53 nsew
+rlabel metal2 s 43535 0 43595 60 4 wdtrim[0]
+port 54 nsew
+rlabel metal2 s 46735 0 46795 60 4 gtrim[1]
+port 55 nsew
+rlabel metal1 s 46735 0 46795 60 4 gtrim[1]
+port 56 nsew
+rlabel metal2 s 46935 0 46995 60 4 gtrim[0]
+port 57 nsew
+rlabel metal1 s 46935 0 46995 60 4 gtrim[0]
+port 58 nsew
+rlabel metal3 s 61057 8220 61657 8820 4 vpump
+port 59 nsew
+rlabel metal1 s 45135 0 45195 60 4 itrim[1]
+port 60 nsew
+rlabel metal2 s 45135 0 45195 60 4 itrim[1]
+port 61 nsew
+rlabel metal1 s 44935 0 44995 60 4 itrim[2]
+port 62 nsew
+rlabel metal2 s 44935 0 44995 60 4 itrim[2]
+port 63 nsew
+rlabel metal1 s 42535 0 42595 60 4 wd_err_n
+port 64 nsew
+rlabel metal2 s 42535 0 42595 60 4 wd_err_n
+port 65 nsew
+rlabel metal3 s 0 220 2000 2220 4 vcc
+port 66 nsew
+rlabel metal3 s 59657 220 61657 2220 4 vcc
+port 67 nsew
+rlabel metal1 s 41935 0 41995 60 4 vssq
+port 68 nsew
+rlabel metal1 s 42135 0 42195 60 4 vssq
+port 69 nsew
+rlabel metal2 s 41735 0 41795 60 4 vssq
+port 70 nsew
+rlabel metal1 s 41735 0 41795 60 4 vssq
+port 71 nsew
+rlabel metal2 s 42135 0 42195 60 4 vssq
+port 72 nsew
+rlabel metal2 s 41935 0 41995 60 4 vssq
+port 73 nsew
+rlabel metal2 s 61597 27605 61657 27665 4 vssq
+port 74 nsew
+rlabel metal2 s 61597 26307 61657 26367 4 vssq
+port 75 nsew
+rlabel metal2 s 61597 16211 61657 16271 4 vssq
+port 76 nsew
+rlabel metal2 s 61597 17509 61657 17569 4 vssq
+port 77 nsew
+rlabel metal3 s 59613 9210 61657 62996 4 vssq
+port 78 nsew
+rlabel metal1 s 45535 0 45595 60 4 rtrim[1]
+port 79 nsew
+rlabel metal2 s 45535 0 45595 60 4 rtrim[1]
+port 80 nsew
+<< properties >>
+string FIXED_BBOX 0 0 61657 62996
+<< end >>
